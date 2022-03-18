@@ -1,0 +1,64 @@
+body {
+
+	background-color: ghostwhite;
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+
+
+}
+
+#middlediv {
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+height:150px;
+width:800px;
+font-size:50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+
+
+.black {
+
+	background-color: black;
+	color: white;
+
+}
+
+
+
+button {
+
+cursor: pointer;
+background-color: red;
+color: white;
+padding: 15px;
+font-size:15px;
+font-family: Verdana;
+margin-bottom:50px;
+border-radius: 10px;
+}
+
+button:hover {
+
+background-image: linear-gradient(to right,black,red);
+
+
+}
+
+button:active {
+
+
+transform: scale(0.9);
+
+
+}
